@@ -12,9 +12,10 @@
 
 Что здесь нужно:
 1. бекенд умных лампочек (по типу [ya-iot-vars](https://github.com/iliakonnov/ya-iot-vars))
-2. 
+	* возможно, что не лампочек, а, скажем,
+2. база данных, которая хранит действие, которое нужно совершить
 
 ## Телеграм-бот
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODc4Mzg5NCwxNjQzNzA0NzkxXX0=
+eyJoaXN0b3J5IjpbLTgxOTY1MjM2MCwxNjQzNzA0NzkxXX0=
 -->
