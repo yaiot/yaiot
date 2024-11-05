@@ -26,7 +26,8 @@ TODO (делает @iliakonnov)
 
 1. телеграм-бот умеет в авторизацию OAuth (см. ниже), этот токен должен браться из базы данных
 2. в телеграм-боте должна быть возможность управлять умными лампочками: добавлять, удалять, редактировать.
-3. Это может быть реализовано через команды `/add http`, `/edit_XXXX 
+3. Это может быть реализовано через команды `/add https://...`, `/edit_XXXX https://...`, `/delete_XXXX` и команду вывода списка текущих лампочек `/list`
+4. У каждой лампочки должно быть человеческое имя (требование API Яндекса)! Открытый вопрос откуда его брать.
 
 ## Телеграм-бот
 
@@ -53,6 +54,6 @@ TODO (делает @iliakonnov)
 Наш бекенд каждые N времени получает состояние умного дома пользователя и находит там устройства, которые в offline.
 Документация API: https://yandex.ru/dev/dialogs/smart-home/doc/ru/concepts/platform-device-info
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDQxMjM2NCwxOTM0NjkyOTMsMTY0Mz
-cwNDc5MV19
+eyJoaXN0b3J5IjpbLTUyOTM1Njg3LDE5MzQ2OTI5MywxNjQzNz
+A0NzkxXX0=
 -->
