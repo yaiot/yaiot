@@ -19,15 +19,16 @@ CREATE TABLE scenarios(
 );
 
 CREATE TABLE alerts(
-	user_id Int64 PRIMARY KEY,
+	user_id Int64 PRIMARY KEY
 );
 
 CREATE TABLE hooks(
-	id UUID PRIMARY KEY,
-	user_id Int64,  -- см. tokens
-	scenario_id
+	lamp_id UUID PRIMARY KEY,  -- виртуальная лампочка
+	user_id Int64,  -- см. tokens, хз нужен ли
+	name String,    -- человеческое имя лампочки
+	url String      -- сюда делаем запрос когда лампочка зажигается
 );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDg2NDkzNF19
+eyJoaXN0b3J5IjpbMjAwNDE0ODgzN119
 -->
