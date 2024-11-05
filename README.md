@@ -15,13 +15,15 @@ TODO
 Что здесь нужно:
 
 **Бекенд:** (@d-tolmachev)
+Бекенд обслуживает умные лампочки и реализует всю логику их срабатывания:
 1. бекенд умных лампочек (по типу [ya-iot-vars](https://github.com/iliakonnov/ya-iot-vars))
 	* возможно, что не лампочек, а какой-то другой [вид устройств](https://yandex.ru/dev/dialogs/smart-home/doc/ru/concepts/device-types)
 2. база данных, которая хранит отображение из ID лампочки (и пользователя) в URL, который нужно будет дергать
 3. когда лампочка включается из сценария, мы идем в URL
 
-**Фронтенд:**
-1. Нужна возможность указывать какие 
+**Фронтенд:** (@KH9IZ)
+Нужна возможность как-то это конфигурировать
+1. телеграм-бот умеет
 
 ## Телеграм-бот
 
@@ -44,6 +46,6 @@ TODO
 Наш бекенд каждые N времени получает состояние умного дома пользователя и находит там устройства, которые в offline.
 Документация API: https://yandex.ru/dev/dialogs/smart-home/doc/ru/concepts/platform-device-info
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTk3NTQ2NCwxOTM0NjkyOTMsMTY0Mz
-cwNDc5MV19
+eyJoaXN0b3J5IjpbNDkxNDA1NjAxLDE5MzQ2OTI5MywxNjQzNz
+A0NzkxXX0=
 -->
