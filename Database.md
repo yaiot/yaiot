@@ -20,10 +20,14 @@ CREATE TABLE scenarios(
 
 CREATE TABLE alerts(
 	user_id Int64 PRIMARY KEY,
-	user_id Int64,     -- см. tokens
-	scenario_id Int64  -- айдишник в УДЯ
+);
+
+CREATE TABLE hooks(
+	id UUID PRIMARY KEY,
+	user_id Int64,  -- см. tokens
+	scenario_id
 );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4MDk1MjBdfQ==
+eyJoaXN0b3J5IjpbMTUxMDg2NDkzNF19
 -->
