@@ -13,10 +13,15 @@ TODO
 **Как это работает**: единственный способ как-то взаимодействовать с внешним миром из УДЯ — зажигать виртуальные лампочки. Наш бекенд лампочек, в свою очередь, может 
 
 Что здесь нужно:
+
+**Бекенд:** (@d-tolmachev)
 1. бекенд умных лампочек (по типу [ya-iot-vars](https://github.com/iliakonnov/ya-iot-vars))
 	* возможно, что не лампочек, а какой-то другой [вид устройств](https://yandex.ru/dev/dialogs/smart-home/doc/ru/concepts/device-types)
 2. база данных, которая хранит отображение из ID лампочки (и пользователя) в URL, который нужно будет дергать
 3. когда лампочка включается из сценария, мы идем в URL
+
+**Фронтенд:**
+1. Нужна возможность указывать какие 
 
 ## Телеграм-бот
 
@@ -39,5 +44,6 @@ TODO
 Наш бекенд каждые N времени получает состояние умного дома пользователя и находит там устройства, которые в offline.
 Документация API: https://yandex.ru/dev/dialogs/smart-home/doc/ru/concepts/platform-device-info
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDY5MjkzLDE2NDM3MDQ3OTFdfQ==
+eyJoaXN0b3J5IjpbLTYwNTk3NTQ2NCwxOTM0NjkyOTMsMTY0Mz
+cwNDc5MV19
 -->
