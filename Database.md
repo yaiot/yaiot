@@ -12,11 +12,18 @@ CREATE TABLE tokens(
 	token String
 );
 
-CREATE TABLE scen(
+CREATE TABLE scenarios(
+	id STRING PRIMARY KEY,  -- нужен генератор случайных строк
+	user_id Int64,     -- см. tokens
+	scenario_id Int64  -- айдишник в УДЯ
+);
+
+CREATE TABLE alerts(
 	user_id Int64 PRIMARY KEY,
-	token String
+	user_id Int64,     -- см. tokens
+	scenario_id Int64  -- айдишник в УДЯ
 );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDEyOTYyNV19
+eyJoaXN0b3J5IjpbLTEzNTk4MDk1MjBdfQ==
 -->
