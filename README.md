@@ -12,10 +12,10 @@
 
 Что здесь нужно:
 1. бекенд умных лампочек (по типу [ya-iot-vars](https://github.com/iliakonnov/ya-iot-vars))
-	* возможно, что не лампочек, а, скажем,
-2. база данных, которая хранит действие, которое нужно совершить
+	* возможно, что не лампочек, а какой-то другой [вид устройств](https://yandex.ru/dev/dialogs/smart-home/doc/ru/concepts/device-types)
+2. база данных, которая хранит отображение из ID лампочки в URL, в который нужно сходить когда 
 
 ## Телеграм-бот
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTY1MjM2MCwxNjQzNzA0NzkxXX0=
+eyJoaXN0b3J5IjpbLTE3OTA5NjI1NywxNjQzNzA0NzkxXX0=
 -->
